@@ -1,0 +1,4 @@
+[theme]
+# Color principal (etiquetas de los años, sliders, checkboxes) usando el azul corporativo
+primaryColor = "#001464"
+

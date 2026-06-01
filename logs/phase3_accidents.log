@@ -1,0 +1,127 @@
+2026-04-12 10:37:13 | INFO | Cargando TABLA_ACCIDENTES_16.xlsx ...
+2026-04-12 10:37:41 | INFO |   Cargadas 102,362 filas de TABLA_ACCIDENTES_16.xlsx
+2026-04-12 10:37:41 | INFO |   Tras filtro Madrid: 16,158 filas
+2026-04-12 10:37:41 | INFO | Cargando TABLA_ACCIDENTES_17.xlsx ...
+2026-04-12 10:38:09 | INFO |   Cargadas 102,233 filas de TABLA_ACCIDENTES_17.xlsx
+2026-04-12 10:38:09 | INFO |   Tras filtro Madrid: 16,248 filas
+2026-04-12 10:38:09 | INFO | Cargando TABLA_ACCIDENTES_18.xlsx ...
+2026-04-12 10:38:37 | INFO |   Cargadas 102,299 filas de TABLA_ACCIDENTES_18.xlsx
+2026-04-12 10:38:37 | INFO |   Tras filtro Madrid: 16,614 filas
+2026-04-12 10:38:37 | INFO | Cargando TABLA_ACCIDENTES_19.xlsx ...
+2026-04-12 10:39:05 | INFO |   Cargadas 104,080 filas de TABLA_ACCIDENTES_19.xlsx
+2026-04-12 10:39:05 | INFO |   Tras filtro Madrid: 16,628 filas
+2026-04-12 10:39:05 | INFO | Cargando TABLA_ACCIDENTES_20.xlsx ...
+2026-04-12 10:39:26 | INFO |   Cargadas 72,959 filas de TABLA_ACCIDENTES_20.xlsx
+2026-04-12 10:39:26 | INFO |   Tras filtro Madrid: 10,766 filas
+2026-04-12 10:39:26 | INFO | Cargando TABLA_ACCIDENTES_21.xlsx ...
+2026-04-12 10:39:50 | INFO |   Cargadas 89,862 filas de TABLA_ACCIDENTES_21.xlsx
+2026-04-12 10:39:50 | INFO |   Tras filtro Madrid: 13,476 filas
+2026-04-12 10:39:50 | INFO | Cargando TABLA_ACCIDENTES_22.xlsx ...
+2026-04-12 10:40:17 | INFO |   Cargadas 97,916 filas de TABLA_ACCIDENTES_22.xlsx
+2026-04-12 10:40:17 | INFO |   Tras filtro Madrid: 15,086 filas
+2026-04-12 10:40:17 | INFO | Cargando TABLA_ACCIDENTES_23.xlsx ...
+2026-04-12 10:40:48 | INFO |   Cargadas 101,306 filas de TABLA_ACCIDENTES_23.xlsx
+2026-04-12 10:40:48 | INFO |   Tras filtro Madrid: 14,680 filas
+2026-04-12 10:40:48 | INFO | Cargando TABLA_ACCIDENTES_24.xlsx ...
+2026-04-12 10:41:18 | INFO |   Cargadas 101,996 filas de TABLA_ACCIDENTES_24.xlsx
+2026-04-12 10:41:18 | INFO |   Tras filtro Madrid: 14,183 filas
+2026-04-12 10:41:18 | INFO | DataFrame combinado: 133,839 registros
+2026-04-12 10:41:18 | INFO | Pipeline limpieza: 133,839 registros de entrada
+2026-04-12 10:41:18 | INFO | PASO 2 completado: CARRETERA estandarizada
+2026-04-12 10:41:18 | INFO | PASO 3 completado: COD_MUNICIPIO estandarizado
+2026-04-12 10:41:18 | INFO |   CONDICION_FIRME: 16 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   CONDICION_METEO: 31275 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   CONDICION_ILUMINACION: 2 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   TITULARIDAD_VIA: 1 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   NUDO_INFO: 2052 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   PRIORI_NORMA: 79229 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   PRIORI_AGENTE: 79229 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   PRIORI_SEMAFORO: 79229 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   PRIORI_VERT_STOP: 79229 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   PRIORI_VERT_CEDA: 79229 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   PRIORI_HORIZ_STOP: 79229 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   PRIORI_HORIZ_CEDA: 79229 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   PRIORI_MARCAS: 79229 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   PRIORI_PEA_NO_ELEV: 79229 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   PRIORI_PEA_ELEV: 79229 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   PRIORI_MARCA_CICLOS: 79229 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   PRIORI_CIRCUNSTANCIAL: 79229 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   PRIORI_OTRA: 79229 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   CONDICION_NIVEL_CIRCULA: 38304 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   VISIB_RESTRINGIDA_POR: 33871 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO |   ACERA: 4816 valores 999 \u2192 NaN
+2026-04-12 10:41:18 | INFO | PASO 4 completado: valores 999 convertidos a NaN
+2026-04-12 10:41:18 | INFO | PASO 5 completado: columnas _LABEL creadas
+2026-04-12 10:41:18 | INFO | PASO 6 – KM: 0 interurbanos sin PK (anómalos), 107789 urbanos sin PK (esperado)
+2026-04-12 10:41:18 | INFO | PASO 6 completado: nulos gestionados
+2026-04-12 10:41:19 | INFO | PASO 7 completado: columna SEVERIDAD creada
+2026-04-12 10:41:19 | INFO | PASO 8 completado: columna FIRME_MALO creada
+2026-04-12 10:41:20 | INFO | PASO 9 completado: TRAMO_KM_INI y SECCION_ID creados
+2026-04-12 10:41:20 | INFO | PASO 10 completado: columna PERIODO (año-mes) creada
+2026-04-12 10:41:20 | INFO | VALIDACIÓN TEMPORAL: todos los años presentes \u2713
+2026-04-12 10:41:20 | INFO | Pipeline limpieza completado: 133,839 \u2192 133,839 registros (100.0% retenidos), 36 columnas
+2026-04-12 10:42:09 | INFO | Cargando TABLA_ACCIDENTES_16.xlsx ...
+2026-04-12 10:42:35 | INFO |   Cargadas 102,362 filas de TABLA_ACCIDENTES_16.xlsx
+2026-04-12 10:42:35 | INFO |   Tras filtro Madrid: 16,158 filas
+2026-04-12 10:42:35 | INFO | Cargando TABLA_ACCIDENTES_17.xlsx ...
+2026-04-12 10:43:02 | INFO |   Cargadas 102,233 filas de TABLA_ACCIDENTES_17.xlsx
+2026-04-12 10:43:02 | INFO |   Tras filtro Madrid: 16,248 filas
+2026-04-12 10:43:02 | INFO | Cargando TABLA_ACCIDENTES_18.xlsx ...
+2026-04-12 10:43:29 | INFO |   Cargadas 102,299 filas de TABLA_ACCIDENTES_18.xlsx
+2026-04-12 10:43:29 | INFO |   Tras filtro Madrid: 16,614 filas
+2026-04-12 10:43:29 | INFO | Cargando TABLA_ACCIDENTES_19.xlsx ...
+2026-04-12 10:43:56 | INFO |   Cargadas 104,080 filas de TABLA_ACCIDENTES_19.xlsx
+2026-04-12 10:43:56 | INFO |   Tras filtro Madrid: 16,628 filas
+2026-04-12 10:43:56 | INFO | Cargando TABLA_ACCIDENTES_20.xlsx ...
+2026-04-12 10:44:16 | INFO |   Cargadas 72,959 filas de TABLA_ACCIDENTES_20.xlsx
+2026-04-12 10:44:16 | INFO |   Tras filtro Madrid: 10,766 filas
+2026-04-12 10:44:16 | INFO | Cargando TABLA_ACCIDENTES_21.xlsx ...
+2026-04-12 10:44:41 | INFO |   Cargadas 89,862 filas de TABLA_ACCIDENTES_21.xlsx
+2026-04-12 10:44:41 | INFO |   Tras filtro Madrid: 13,476 filas
+2026-04-12 10:44:41 | INFO | Cargando TABLA_ACCIDENTES_22.xlsx ...
+2026-04-12 10:45:08 | INFO |   Cargadas 97,916 filas de TABLA_ACCIDENTES_22.xlsx
+2026-04-12 10:45:08 | INFO |   Tras filtro Madrid: 15,086 filas
+2026-04-12 10:45:08 | INFO | Cargando TABLA_ACCIDENTES_23.xlsx ...
+2026-04-12 10:45:35 | INFO |   Cargadas 101,306 filas de TABLA_ACCIDENTES_23.xlsx
+2026-04-12 10:45:35 | INFO |   Tras filtro Madrid: 14,680 filas
+2026-04-12 10:45:35 | INFO | Cargando TABLA_ACCIDENTES_24.xlsx ...
+2026-04-12 10:46:03 | INFO |   Cargadas 101,996 filas de TABLA_ACCIDENTES_24.xlsx
+2026-04-12 10:46:03 | INFO |   Tras filtro Madrid: 14,183 filas
+2026-04-12 10:46:03 | INFO | DataFrame combinado: 133,839 registros
+2026-04-12 10:46:03 | INFO | Pipeline limpieza: 133,839 registros de entrada
+2026-04-12 10:46:03 | INFO | PASO 2 completado: CARRETERA estandarizada
+2026-04-12 10:46:03 | INFO | PASO 3 completado: COD_MUNICIPIO estandarizado
+2026-04-12 10:46:03 | INFO |   CONDICION_FIRME: 16 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   CONDICION_METEO: 31275 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   CONDICION_ILUMINACION: 2 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   TITULARIDAD_VIA: 1 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   NUDO_INFO: 2052 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   PRIORI_NORMA: 79229 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   PRIORI_AGENTE: 79229 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   PRIORI_SEMAFORO: 79229 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   PRIORI_VERT_STOP: 79229 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   PRIORI_VERT_CEDA: 79229 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   PRIORI_HORIZ_STOP: 79229 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   PRIORI_HORIZ_CEDA: 79229 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   PRIORI_MARCAS: 79229 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   PRIORI_PEA_NO_ELEV: 79229 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   PRIORI_PEA_ELEV: 79229 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   PRIORI_MARCA_CICLOS: 79229 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   PRIORI_CIRCUNSTANCIAL: 79229 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   PRIORI_OTRA: 79229 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   CONDICION_NIVEL_CIRCULA: 38304 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   VISIB_RESTRINGIDA_POR: 33871 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO |   ACERA: 4816 valores 999 \u2192 NaN
+2026-04-12 10:46:03 | INFO | PASO 4 completado: valores 999 convertidos a NaN
+2026-04-12 10:46:03 | INFO | PASO 5 completado: columnas _LABEL creadas
+2026-04-12 10:46:03 | INFO | PASO 6 – KM: 0 interurbanos sin PK (anómalos), 107789 urbanos sin PK (esperado)
+2026-04-12 10:46:03 | INFO | PASO 6 completado: nulos gestionados
+2026-04-12 10:46:04 | INFO | PASO 7 completado: columna SEVERIDAD creada
+2026-04-12 10:46:04 | INFO | PASO 8 completado: columna FIRME_MALO creada
+2026-04-12 10:46:05 | INFO | PASO 9 completado: TRAMO_KM_INI y SECCION_ID creados
+2026-04-12 10:46:05 | INFO | PASO 10 completado: columna PERIODO (año-mes) creada
+2026-04-12 10:46:05 | INFO | VALIDACIÓN TEMPORAL: todos los años presentes \u2713
+2026-04-12 10:46:05 | INFO | Pipeline limpieza completado: 133,839 \u2192 133,839 registros (100.0% retenidos), 36 columnas
+2026-04-12 10:46:05 | INFO | Guardado: C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\accidents_clean.parquet
+2026-04-12 10:46:07 | INFO | Guardado: C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\accidents_clean.csv
+2026-04-12 10:46:07 | INFO | === FASE 3 ACCIDENTES COMPLETADA ===

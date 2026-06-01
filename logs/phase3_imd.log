@@ -1,0 +1,38 @@
+2026-04-12 11:47:39 | INFO | ZIP extraído: imd_trafico_2018.zip \u2192 C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\raw_data\02_traffic_volume\2018
+2026-04-12 11:47:39 | INFO | HTML 2018: 386 archivos
+2026-04-12 11:47:47 | INFO | HTML 2018: 386 estaciones extraídas
+2026-04-12 11:47:47 | INFO | ZIP extraído: imd_trafico_2019.zip \u2192 C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\raw_data\02_traffic_volume\2019
+2026-04-12 11:47:47 | INFO | HTML 2019: 407 archivos
+2026-04-12 11:47:54 | INFO | HTML 2019: 407 estaciones extraídas
+2026-04-12 11:47:55 | INFO | ZIP extraído: imd_trafico_2020.zip \u2192 C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\raw_data\02_traffic_volume\2020
+2026-04-12 11:47:55 | INFO | HTML 2020: 407 archivos
+2026-04-12 11:48:03 | INFO | HTML 2020: 407 estaciones extraídas
+2026-04-12 11:48:03 | INFO | ZIP extraído: imd_trafico_2021.zip \u2192 C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\raw_data\02_traffic_volume\2021
+2026-04-12 11:48:03 | INFO | HTML 2021: 423 archivos
+2026-04-12 11:48:11 | INFO | HTML 2021: 423 estaciones extraídas
+2026-04-12 11:48:11 | INFO | ZIP extraído: imd_trafico_2022.zip \u2192 C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\raw_data\02_traffic_volume\2022
+2026-04-12 11:48:11 | INFO | HTML 2022: 407 archivos
+2026-04-12 11:48:20 | INFO | HTML 2022: 407 estaciones extraídas
+2026-04-12 11:48:20 | INFO | ZIP extraído: imd_trafico_2023.zip \u2192 C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\raw_data\02_traffic_volume\2023
+2026-04-12 11:48:20 | INFO | HTML 2023: 430 archivos
+2026-04-12 11:48:29 | INFO | HTML 2023: 430 estaciones extraídas
+2026-04-12 11:48:39 | INFO | ZIP extraído: imd_trafico_2024.zip \u2192 C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\raw_data\02_traffic_volume\2024
+2026-04-12 11:48:40 | INFO | PDF 2024: 461 archivos
+2026-04-12 11:49:48 | INFO | PDF 2024: 461 estaciones extraídas
+2026-04-12 11:49:48 | INFO | Extracción completa: 2921 filas totales
+2026-04-12 11:49:48 | INFO | CSV raw guardado: C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\imd_raw_sin_limpiar.csv
+2026-04-12 11:49:48 | INFO | Pipeline IMD: 2921 filas de entrada
+2026-04-12 11:49:48 | INFO | PASO 2.1: 14 carreteras recuperadas desde nombre de carpeta
+2026-04-12 11:49:48 | INFO | PASO 2.2: CARRETERA estandarizada
+2026-04-12 11:49:48 | INFO | PASO 2.3: PK limpiado. Nulos: 14 (0.5%)
+2026-04-12 11:49:48 | INFO | PASO 2.4: IMD_TOTAL limpiada. Nulos: 0
+2026-04-12 11:49:48 | INFO | PASO 2.6: 407 registros marcados con flag_covid=True (año 2020)
+2026-04-12 11:49:48 | INFO | PASO 2.7: SECCION_ID creada. Sin sección: 14
+2026-04-12 11:49:48 | INFO | PASO 2.8: 0 duplicados eliminados (año+carretera+pk)
+2026-04-12 11:49:48 | INFO | PASO 2.9: pct_pesados limpiado
+2026-04-12 11:49:48 | INFO | PASO 2.10 – Todos los años IMD presentes \u2713
+2026-04-12 11:49:48 | INFO | Pipeline IMD completado: 2921 \u2192 2921 registros (19 columnas)
+2026-04-12 11:49:48 | INFO | Guardado: C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\imd_clean.parquet
+2026-04-12 11:49:48 | INFO | Guardado: C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\imd_clean.csv
+2026-04-12 11:49:48 | INFO | CSVs por año guardados
+2026-04-12 11:49:48 | INFO | === FASE 3 IMD COMPLETADA ===

@@ -1,0 +1,178 @@
+﻿TIPO_ACCIDENTE_LABEL,YEAR,n_accidents,n_fatal_30d,n_serious_30d,n_light_30d,n_victims_30d,ASI_pct
+Atropello a animales,2016,15,0,2,21,23,8.6957
+Atropello a animales,2017,11,0,3,14,17,17.6471
+Atropello a animales,2018,17,1,0,24,25,4.0
+Atropello a animales,2019,8,0,0,15,15,0.0
+Atropello a animales,2020,11,0,1,25,26,3.8462
+Atropello a animales,2021,17,0,0,35,35,0.0
+Atropello a animales,2022,13,0,2,30,32,6.25
+Atropello a animales,2023,15,0,3,22,25,12.0
+Atropello a animales,2024,10,1,2,19,22,13.6364
+Atropello a personas,2016,57,39,401,2360,2800,15.7143
+Atropello a personas,2017,73,34,375,2282,2691,15.1988
+Atropello a personas,2018,69,45,330,2340,2715,13.8122
+Atropello a personas,2019,71,52,257,2390,2699,11.4487
+Atropello a personas,2020,48,33,164,1414,1611,12.2284
+Atropello a personas,2021,55,37,207,1758,2002,12.1878
+Atropello a personas,2022,65,32,214,2125,2371,10.3754
+Atropello a personas,2023,61,45,228,2022,2295,11.8954
+Atropello a personas,2024,57,36,239,1841,2116,12.9962
+Caída,2016,133,6,146,1939,2091,7.2692
+Caída,2017,178,10,142,1924,2076,7.3218
+Caída,2018,180,3,158,2134,2295,7.0153
+Caída,2019,185,6,82,2360,2448,3.5948
+Caída,2020,110,7,67,1758,1832,4.0393
+Caída,2021,136,3,104,2184,2291,4.6704
+Caída,2022,145,3,78,2340,2421,3.3457
+Caída,2023,138,5,90,2157,2252,4.2185
+Caída,2024,126,5,105,2126,2236,4.9195
+Colisión contra obstáculo o elemento de la vía,2016,43,5,71,798,874,8.6957
+Colisión contra obstáculo o elemento de la vía,2017,30,7,74,689,770,10.5195
+Colisión contra obstáculo o elemento de la vía,2018,48,10,69,812,891,8.8664
+Colisión contra obstáculo o elemento de la vía,2019,32,2,25,580,607,4.4481
+Colisión contra obstáculo o elemento de la vía,2020,24,8,28,423,459,7.8431
+Colisión contra obstáculo o elemento de la vía,2021,28,3,23,506,532,4.8872
+Colisión contra obstáculo o elemento de la vía,2022,22,5,22,557,584,4.6233
+Colisión contra obstáculo o elemento de la vía,2023,40,3,32,506,541,6.4695
+Colisión contra obstáculo o elemento de la vía,2024,39,6,32,434,472,8.0508
+Colisión frontal,2016,83,7,16,205,228,10.0877
+Colisión frontal,2017,74,18,39,204,261,21.8391
+Colisión frontal,2018,73,5,25,173,203,14.7783
+Colisión frontal,2019,102,11,57,512,580,11.7241
+Colisión frontal,2020,69,9,35,386,430,10.2326
+Colisión frontal,2021,73,14,34,434,482,9.9585
+Colisión frontal,2022,87,21,55,493,569,13.3568
+Colisión frontal,2023,76,17,52,442,511,13.5029
+Colisión frontal,2024,77,14,41,506,561,9.8039
+Colisión fronto-lateral,2016,228,17,236,4423,4676,5.4106
+Colisión fronto-lateral,2017,282,10,261,4584,4855,5.5819
+Colisión fronto-lateral,2018,283,8,210,4620,4838,4.506
+Colisión fronto-lateral,2019,304,18,154,4330,4502,3.8205
+Colisión fronto-lateral,2020,212,6,125,2701,2832,4.6257
+Colisión fronto-lateral,2021,276,10,206,3312,3528,6.1224
+Colisión fronto-lateral,2022,266,13,166,3778,3957,4.5236
+Colisión fronto-lateral,2023,264,22,198,3607,3827,5.7486
+Colisión fronto-lateral,2024,208,9,208,3617,3834,5.6599
+Colisión lateral,2016,252,1,23,507,531,4.5198
+Colisión lateral,2017,290,1,19,534,554,3.6101
+Colisión lateral,2018,285,1,20,543,564,3.7234
+Colisión lateral,2019,295,3,55,1516,1574,3.6849
+Colisión lateral,2020,184,3,22,901,926,2.6998
+Colisión lateral,2021,237,2,42,1197,1241,3.5455
+Colisión lateral,2022,261,3,32,1413,1448,2.4171
+Colisión lateral,2023,283,3,42,1420,1465,3.0717
+Colisión lateral,2024,251,3,59,1300,1362,4.5521
+Colisión múltiple,2016,364,6,61,2078,2145,3.1235
+Colisión múltiple,2017,410,1,49,2154,2204,2.2686
+Colisión múltiple,2018,368,7,45,2031,2083,2.4964
+Colisión múltiple,2019,314,5,25,1424,1454,2.0633
+Colisión múltiple,2020,126,2,16,646,664,2.7108
+Colisión múltiple,2021,219,2,13,990,1005,1.4925
+Colisión múltiple,2022,281,0,14,1139,1153,1.2142
+Colisión múltiple,2023,257,2,10,1125,1137,1.0554
+Colisión múltiple,2024,255,7,26,951,984,3.3537
+Colisión por alcance,2016,888,14,192,5230,5436,3.7896
+Colisión por alcance,2017,1054,11,246,5770,6027,4.2641
+Colisión por alcance,2018,992,8,227,5724,5959,3.9436
+Colisión por alcance,2019,1048,13,84,4895,4992,1.9431
+Colisión por alcance,2020,593,7,63,2771,2841,2.4639
+Colisión por alcance,2021,865,10,56,3769,3835,1.721
+Colisión por alcance,2022,957,16,76,4113,4205,2.1879
+Colisión por alcance,2023,1006,2,97,4418,4517,2.1917
+Colisión por alcance,2024,871,16,86,4069,4171,2.4455
+Otro tipo de accidente,2016,19,1,13,300,314,4.4586
+Otro tipo de accidente,2017,22,0,19,324,343,5.5394
+Otro tipo de accidente,2018,17,0,12,413,425,2.8235
+Otro tipo de accidente,2019,22,2,10,342,354,3.3898
+Otro tipo de accidente,2020,16,0,3,102,105,2.8571
+Otro tipo de accidente,2021,24,5,6,220,231,4.7619
+Otro tipo de accidente,2022,16,0,6,222,228,2.6316
+Otro tipo de accidente,2023,18,0,10,196,206,4.8544
+Otro tipo de accidente,2024,20,2,3,133,138,3.6232
+Salida de la vía por la derecha con colisión,2016,246,8,19,346,373,7.2386
+Salida de la vía por la derecha con colisión,2017,185,17,20,251,288,12.8472
+Salida de la vía por la derecha con colisión,2018,206,8,31,316,355,10.9859
+Salida de la vía por la derecha con colisión,2019,175,18,37,482,537,10.2421
+Salida de la vía por la derecha con colisión,2020,149,8,33,368,409,10.0244
+Salida de la vía por la derecha con colisión,2021,164,15,20,455,490,7.1429
+Salida de la vía por la derecha con colisión,2022,190,9,28,524,561,6.5954
+Salida de la vía por la derecha con colisión,2023,173,12,43,506,561,9.8039
+Salida de la vía por la derecha con colisión,2024,167,11,43,545,599,9.015
+Salida de la vía por la derecha con despeñamiento,2016,20,2,2,22,26,15.3846
+Salida de la vía por la derecha con despeñamiento,2017,9,1,1,10,12,16.6667
+Salida de la vía por la derecha con despeñamiento,2018,15,0,0,18,18,0.0
+Salida de la vía por la derecha con despeñamiento,2019,19,0,1,22,23,4.3478
+Salida de la vía por la derecha con despeñamiento,2020,12,0,1,11,12,8.3333
+Salida de la vía por la derecha con despeñamiento,2021,5,0,0,5,5,0.0
+Salida de la vía por la derecha con despeñamiento,2022,11,0,0,11,11,0.0
+Salida de la vía por la derecha con despeñamiento,2023,5,1,2,6,9,33.3333
+Salida de la vía por la derecha con despeñamiento,2024,7,1,3,4,8,50.0
+Salida de la vía por la derecha con vuelco,2016,123,3,12,165,180,8.3333
+Salida de la vía por la derecha con vuelco,2017,106,3,6,139,148,6.0811
+Salida de la vía por la derecha con vuelco,2018,141,1,7,167,175,4.5714
+Salida de la vía por la derecha con vuelco,2019,114,3,8,134,145,7.5862
+Salida de la vía por la derecha con vuelco,2020,82,3,6,101,110,8.1818
+Salida de la vía por la derecha con vuelco,2021,88,3,2,120,125,4.0
+Salida de la vía por la derecha con vuelco,2022,84,3,5,121,129,6.2016
+Salida de la vía por la derecha con vuelco,2023,78,6,5,105,116,9.4828
+Salida de la vía por la derecha con vuelco,2024,85,2,10,125,137,8.7591
+Salida de la vía por la derecha otro tipo,2016,167,2,13,213,228,6.5789
+Salida de la vía por la derecha otro tipo,2017,149,1,7,184,192,4.1667
+Salida de la vía por la derecha otro tipo,2018,152,1,7,186,194,4.1237
+Salida de la vía por la derecha otro tipo,2019,177,6,13,235,254,7.4803
+Salida de la vía por la derecha otro tipo,2020,139,3,8,195,206,5.3398
+Salida de la vía por la derecha otro tipo,2021,143,0,18,210,228,7.8947
+Salida de la vía por la derecha otro tipo,2022,163,1,19,243,263,7.6046
+Salida de la vía por la derecha otro tipo,2023,118,3,15,188,206,8.7379
+Salida de la vía por la derecha otro tipo,2024,149,2,17,234,253,7.5099
+Salida de la vía por la izquierda con colisión,2016,253,9,27,353,389,9.2545
+Salida de la vía por la izquierda con colisión,2017,159,3,19,209,231,9.5238
+Salida de la vía por la izquierda con colisión,2018,181,15,24,244,283,13.7809
+Salida de la vía por la izquierda con colisión,2019,139,15,37,557,609,8.5386
+Salida de la vía por la izquierda con colisión,2020,147,8,53,530,591,10.3215
+Salida de la vía por la izquierda con colisión,2021,133,14,28,538,580,7.2414
+Salida de la vía por la izquierda con colisión,2022,179,13,27,671,711,5.6259
+Salida de la vía por la izquierda con colisión,2023,155,7,31,715,753,5.0465
+Salida de la vía por la izquierda con colisión,2024,158,7,63,762,832,8.4135
+Salida de la vía por la izquierda con despeñamiento,2016,9,0,0,12,12,0.0
+Salida de la vía por la izquierda con despeñamiento,2017,12,1,1,15,17,11.7647
+Salida de la vía por la izquierda con despeñamiento,2018,12,0,1,17,18,5.5556
+Salida de la vía por la izquierda con despeñamiento,2019,13,0,0,16,16,0.0
+Salida de la vía por la izquierda con despeñamiento,2020,8,2,0,8,10,20.0
+Salida de la vía por la izquierda con despeñamiento,2021,5,1,3,4,8,50.0
+Salida de la vía por la izquierda con despeñamiento,2022,6,0,0,10,10,0.0
+Salida de la vía por la izquierda con despeñamiento,2023,3,1,1,1,3,66.6667
+Salida de la vía por la izquierda con despeñamiento,2024,5,0,3,5,8,37.5
+Salida de la vía por la izquierda con vuelco,2016,121,1,9,167,177,5.6497
+Salida de la vía por la izquierda con vuelco,2017,101,7,14,156,177,11.8644
+Salida de la vía por la izquierda con vuelco,2018,92,0,3,117,120,2.5
+Salida de la vía por la izquierda con vuelco,2019,109,3,7,168,178,5.618
+Salida de la vía por la izquierda con vuelco,2020,67,2,2,100,104,3.8462
+Salida de la vía por la izquierda con vuelco,2021,78,4,5,105,114,7.8947
+Salida de la vía por la izquierda con vuelco,2022,74,2,5,97,104,6.7308
+Salida de la vía por la izquierda con vuelco,2023,70,0,8,101,109,7.3394
+Salida de la vía por la izquierda con vuelco,2024,53,0,9,74,83,10.8434
+"Salida de la vía por la izquierda, otro tipo",2016,121,0,5,150,155,3.2258
+"Salida de la vía por la izquierda, otro tipo",2017,93,0,4,114,118,3.3898
+"Salida de la vía por la izquierda, otro tipo",2018,124,1,7,147,155,5.1613
+"Salida de la vía por la izquierda, otro tipo",2019,90,2,11,197,210,6.1905
+"Salida de la vía por la izquierda, otro tipo",2020,71,3,8,172,183,6.0109
+"Salida de la vía por la izquierda, otro tipo",2021,89,4,21,185,210,11.9048
+"Salida de la vía por la izquierda, otro tipo",2022,90,4,19,176,199,11.5578
+"Salida de la vía por la izquierda, otro tipo",2023,85,8,21,195,224,12.9464
+"Salida de la vía por la izquierda, otro tipo",2024,97,2,20,196,218,10.0917
+Sólo salida de la vía,2019,0,0,0,10,10,0.0
+Sólo salida de la vía,2020,0,0,0,7,7,0.0
+Sólo salida de la vía,2021,0,0,1,8,9,11.1111
+Sólo salida de la vía,2022,0,0,1,12,13,7.6923
+Sólo salida de la vía,2023,0,0,1,36,37,2.7027
+Sólo salida de la vía,2024,0,0,0,14,14,0.0
+Vuelco,2016,16,0,6,116,122,4.918
+Vuelco,2017,5,0,5,79,84,5.9524
+Vuelco,2018,12,0,9,74,83,10.8434
+Vuelco,2019,11,0,1,83,84,1.1905
+Vuelco,2020,7,1,3,65,69,5.7971
+Vuelco,2021,12,0,2,73,75,2.6667
+Vuelco,2022,17,0,5,118,123,4.065
+Vuelco,2023,15,0,4,113,117,3.4188
+Vuelco,2024,10,1,3,95,99,4.0404

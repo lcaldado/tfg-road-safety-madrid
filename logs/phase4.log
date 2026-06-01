@@ -1,0 +1,78 @@
+2026-05-14 17:29:21 [INFO] Loading accidents_clean.csv …
+2026-05-14 17:29:22 [INFO]   Loaded 133839 accident records, 36 columns
+2026-05-14 17:29:22 [INFO] Loading imd_clean.csv …
+2026-05-14 17:29:22 [INFO]   Loaded 2921 IMD records, 19 columns
+2026-05-14 17:29:22 [INFO] Loading road-network geometry (layer: rt_tramo_vial) …
+2026-05-14 17:29:33 [INFO]   Loaded 313402 road segments, CRS=EPSG:4258
+2026-05-14 17:29:33 [INFO] Working copies created and derived flags added.
+2026-05-14 17:29:33 [INFO] Computing Indicator 1: Accident Concentration Index …
+2026-05-14 17:29:33 [INFO]   Indicator 1 shape: (11104, 16) | TCA sections: 58
+2026-05-14 17:29:33 [INFO] Exported ind1_accident_concentration → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind1_accident_concentration.csv
+2026-05-14 17:29:34 [INFO] Exported ind1_accident_concentration → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind1_accident_concentration.parquet
+2026-05-14 17:29:34 [INFO] Computing Indicator 2: Road Condition Influence Index …
+2026-05-14 17:29:34 [INFO]   Indicator 2 shape: (1613, 9)
+2026-05-14 17:29:34 [INFO] Exported ind2_road_condition → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind2_road_condition.csv
+2026-05-14 17:29:34 [INFO] Exported ind2_road_condition → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind2_road_condition.parquet
+2026-05-14 17:29:34 [INFO] Computing Indicator 3: Accident Rate – Alcohol/Drug Proxy …
+2026-05-14 17:29:34 [INFO] Exported ind3_alcohol_drugs_section → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind3_alcohol_drugs_section.csv
+2026-05-14 17:29:34 [INFO] Exported ind3_alcohol_drugs_section → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind3_alcohol_drugs_section.parquet
+2026-05-14 17:29:34 [INFO] Exported ind3_alcohol_drugs_regional → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind3_alcohol_drugs_regional.csv
+2026-05-14 17:29:34 [INFO] Exported ind3_alcohol_drugs_regional → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind3_alcohol_drugs_regional.parquet
+2026-05-14 17:29:34 [INFO] Exported ind3_alcohol_drugs_municipality → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind3_alcohol_drugs_municipality.csv
+2026-05-14 17:29:34 [INFO] Exported ind3_alcohol_drugs_municipality → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind3_alcohol_drugs_municipality.parquet
+2026-05-14 17:29:34 [INFO]   Indicator 3 section shape: (11104, 6) | regional shape: (9, 5) | muni shape: (733, 5)
+2026-05-14 17:29:34 [INFO] Computing Indicator 4: Accident Severity Index …
+2026-05-14 17:29:34 [INFO] Exported ind4_severity_by_cause → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind4_severity_by_cause.csv
+2026-05-14 17:29:34 [INFO] Exported ind4_severity_by_cause → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind4_severity_by_cause.parquet
+2026-05-14 17:29:34 [INFO] Exported ind4_severity_by_section → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind4_severity_by_section.csv
+2026-05-14 17:29:34 [INFO] Exported ind4_severity_by_section → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind4_severity_by_section.parquet
+2026-05-14 17:29:34 [INFO] Exported ind4_severity_regional → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind4_severity_regional.csv
+2026-05-14 17:29:34 [INFO] Exported ind4_severity_regional → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind4_severity_regional.parquet
+2026-05-14 17:29:34 [INFO]   Indicator 4: cause shape=(177, 8) | section shape=(11104, 8) | regional=(9, 6)
+2026-05-14 17:29:34 [INFO] Computing Indicator 5: Temporal Evolution of Accident Rates …
+2026-05-14 17:29:49 [INFO]   Computing trend labels per section (may take a moment) …
+2026-05-14 17:29:51 [INFO] Exported ind5_temporal_evolution_regional → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind5_temporal_evolution_regional.csv
+2026-05-14 17:29:51 [INFO] Exported ind5_temporal_evolution_regional → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind5_temporal_evolution_regional.parquet
+2026-05-14 17:29:51 [INFO] Exported ind5_temporal_evolution_road → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind5_temporal_evolution_road.csv
+2026-05-14 17:29:51 [INFO] Exported ind5_temporal_evolution_road → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind5_temporal_evolution_road.parquet
+2026-05-14 17:29:51 [INFO] Exported ind5_temporal_evolution_section → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind5_temporal_evolution_section.csv
+2026-05-14 17:29:51 [INFO] Exported ind5_temporal_evolution_section → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind5_temporal_evolution_section.parquet
+2026-05-14 17:29:51 [INFO]   Indicator 5: regional=(9, 12) | road=(1613, 8) | section=(11104, 10)
+2026-05-14 17:29:51 [INFO] Computing Indicator 6: Distribution of Accident Causes …
+2026-05-14 17:29:52 [INFO] Exported ind6_cause_distribution_regional → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind6_cause_distribution_regional.csv
+2026-05-14 17:29:52 [INFO] Exported ind6_cause_distribution_regional → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind6_cause_distribution_regional.parquet
+2026-05-14 17:29:52 [INFO] Exported ind6_cause_distribution_road → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind6_cause_distribution_road.csv
+2026-05-14 17:29:52 [INFO] Exported ind6_cause_distribution_road → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind6_cause_distribution_road.parquet
+2026-05-14 17:29:52 [INFO] Exported ind6_cause_dominant_per_section → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind6_cause_dominant_per_section.csv
+2026-05-14 17:29:52 [INFO] Exported ind6_cause_dominant_per_section → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\ind6_cause_dominant_per_section.parquet
+2026-05-14 17:29:52 [INFO]   Indicator 6: regional=(177, 5) | road=(7833, 6) | section_dominant=(11104, 5)
+2026-05-14 17:29:52 [INFO] Building unified GeoDataFrame …
+2026-05-14 17:29:52 [INFO]   Dissolving road geometry by nombre (may take ~30 s) …
+2026-05-14 17:29:56 [INFO]   Unified GeoDataFrame: 25712 road geometries, 214 with accident data
+2026-05-14 17:29:58 [INFO] Created 25,712 records
+2026-05-14 17:29:58 [INFO] Exported unified GeoDataFrame → C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators\indicators_unified.gpkg
+2026-05-14 17:29:58 [INFO] ============================================================
+2026-05-14 17:29:58 [INFO] PHASE 4 COMPLETE – Output summary
+2026-05-14 17:29:58 [INFO] ============================================================
+2026-05-14 17:29:58 [INFO] Output directory : C:\Users\User\OneDrive - Northeastern University\Documentos\UNIVERSIDAD\TFG\data\processed_data\indicators
+2026-05-14 17:29:58 [INFO] 
+2026-05-14 17:29:58 [INFO] IND 1 – Accident Concentration Index
+2026-05-14 17:29:58 [INFO]   Records: 11104 | TCA sections: 58
+2026-05-14 17:29:58 [INFO] 
+2026-05-14 17:29:58 [INFO] IND 2 – Road Condition Influence Index
+2026-05-14 17:29:58 [INFO]   Records: 1613 | Roads with High RCII: 92
+2026-05-14 17:29:58 [INFO] 
+2026-05-14 17:29:58 [INFO] IND 3 – Alcohol/Drug Proxy Rate
+2026-05-14 17:29:58 [INFO]   Section records: 11104 | Regional records: 9
+2026-05-14 17:29:58 [INFO] 
+2026-05-14 17:29:58 [INFO] IND 4 – Accident Severity Index
+2026-05-14 17:29:58 [INFO]   Cause×Year records: 177 | Regional records: 9
+2026-05-14 17:29:58 [INFO] 
+2026-05-14 17:29:58 [INFO] IND 5 – Temporal Evolution
+2026-05-14 17:29:58 [INFO]   Regional years: 9 | Road×Year: 1613 | Section×Year: 11104
+2026-05-14 17:29:58 [INFO] 
+2026-05-14 17:29:58 [INFO] IND 6 – Cause Distribution
+2026-05-14 17:29:58 [INFO]   Regional: 177 | Road: 7833 | Dominant per section: 11104
+2026-05-14 17:29:58 [INFO] 
+2026-05-14 17:29:58 [INFO] UNIFIED GeoDataFrame: 25712 road geometries
+2026-05-14 17:29:58 [INFO] ============================================================
