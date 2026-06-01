@@ -28,7 +28,7 @@ import plotly.graph_objects as go
 import pydeck as pdk
 import numpy as np
 import os
-import geopandas as gpd
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "..", "data")
 # ── Page config ───────────────────────────────────────────────────────────────
@@ -93,7 +93,7 @@ def load_data():
     ind5r = pd.read_csv(os.path.join(DATA_DIR, "ind5_temporal_evolution_road.csv"))
     ind5R = pd.read_csv(os.path.join(DATA_DIR, "ind5_temporal_evolution_regional.csv"))
     ind6d = pd.read_csv(os.path.join(DATA_DIR, "ind6_cause_distribution_road.csv"))
-    ind6p = pd.read_parquet(os.path.join(DATA_DIR, "ind6_cause_dominant_per_section.parquet"))
+    ind6p = pd.read_csv(os.path.join(DATA_DIR, "ind6_cause_dominant_per_section.csv"))
 
     # Ensure is_covid_year is boolean
     for df in [ind5r, ind5R]:
@@ -173,54 +173,38 @@ def add_covid_vrect(fig):
     )
     return fig
 
-def get_section_coords(road, section_id, roads_geo):
+ddef get_section_coords(road, section_id, roads_geo=None):
     """
-    Finds the real geometry of the road in roads_geo and calculates
-    the exact point by interpolating the pk (kilometer point) of SECCION_ID.
-    Returns (lat, lon) or None if the road has no geometry.
+    Returns (lat, lon) for a section using ROAD_COORDS lookup + km-based jitter.
+    roads_geo is kept as parameter for backwards compatibility but is not used.
     """
+    base = ROAD_COORDS.get(road)
+    if base is None:
+        return None
+    # Extract km from SECCION_ID (format ROAD_KM) to add deterministic jitter
     try:
         pk = int(str(section_id).split("_")[-1])
     except (ValueError, IndexError):
         pk = 0
+    # Small deterministic offset so sections on the same road don't overlap
+    rng = np.random.default_rng(seed=hash(section_id) % (2**32))
+    jitter_lat = rng.uniform(-0.04, 0.04)
+    jitter_lon = rng.uniform(-0.04, 0.04)
+    return base[0] + jitter_lat, base[1] + jitter_lon
 
-    road_geom = roads_geo[roads_geo["CARRETERA"] == road]
-    if road_geom.empty:
-        return None
 
-    # Merges all segments of the road into a single line
-    from shapely.ops import unary_union, linemerge
-    from shapely.geometry import MultiLineString
-    merged = linemerge(unary_union(road_geom.geometry.values))
-
-    # If the result is a MultiLineString, take the longest segment
-    if merged.geom_type == "MultiLineString":
-        merged = max(merged.geoms, key=lambda g: g.length)
-
-    # Interpolates the pk as a fraction of the total length of the geometry
-    # pk is in km; geometry is in degrees (~0.009 degrees/km approx)
-    total_length = merged.length
-    # Convert pk to fraction (assuming ~0.009 degrees per km)
-    pk_length = pk * 0.009
-    fraction = min(pk_length / total_length, 1.0) if total_length > 0 else 0.0
-
-    point = merged.interpolate(fraction, normalized=True)
-    return point.y, point.x
-
-def geo_to_path_layer(roads_geo, highlight_road=None):
-    """Converts LineString geometries from GeoPackage to PyDeck PathLayer format."""
+def geo_to_path_layer(roads_geo=None, highlight_road=None):
+    """
+    Builds a PathLayer using straight lines between known ROAD_COORDS points.
+    roads_geo is kept as parameter for backwards compatibility but is not used.
+    """
     rows = []
-    for _, row in roads_geo.iterrows():
-        geom = row["geometry"]
-        if geom is None:
-            continue
-        coords = [list(c[:2]) for c in geom.coords]
-        if len(coords) < 2:
-            continue
-        is_highlight = (highlight_road is not None and row["CARRETERA"] == highlight_road)
+    for road, (lat, lon) in ROAD_COORDS.items():
+        is_highlight = (highlight_road is not None and road == highlight_road)
+        # Represent each road as a short line segment centred on its coordinate
         rows.append({
-            "road":  row["CARRETERA"],
-            "path":  coords,
+            "road":  road,
+            "path":  [[lon - 0.05, lat], [lon + 0.05, lat]],
             "color": [255, 50, 50, 220] if is_highlight else [80, 80, 80, 140],
             "width": 80 if is_highlight else 40,
         })
@@ -623,7 +607,6 @@ with tab3:
 
         # Context layer: large, faint circles to orient the road
         path_df = geo_to_path_layer(
-            roads_geo,
             highlight_road=None if is_regional else selected_road,
         )
         road_layer = pdk.Layer(

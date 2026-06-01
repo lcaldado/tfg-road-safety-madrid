@@ -6,3 +6,4 @@ pyarrow
 streamlit
 plotly
 pydeck
+osmnx
