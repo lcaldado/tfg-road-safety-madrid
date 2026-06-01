@@ -103,11 +103,12 @@ def load_data():
     ind1["IS_TCA"] = ind1["IS_TCA"].astype(int)
 
     # Load road network and filter only roads present in ind1
-    roads_geo = gpd.read_file(os.path.join(DATA_DIR, "red_viaria.gpkg"), layer="rt_tramo_vial")
-    roads_geo = roads_geo.to_crs(epsg=4326)
-    carreteras_ind1 = set(ind1["CARRETERA"].unique())
-    roads_geo = roads_geo[roads_geo["nombre"].isin(carreteras_ind1)][["nombre", "geometry"]].rename(columns={"nombre": "CARRETERA"})
-
+    # ─────────────────────────────────────────────────────────────
+    # roads_geo = gpd.read_file(os.path.join(DATA_DIR, "red_viaria.gpkg"), layer="rt_tramo_vial")
+    # roads_geo = roads_geo.to_crs(epsg=4326)
+    # carreteras_ind1 = set(ind1["CARRETERA"].unique())
+    # roads_geo = roads_geo[roads_geo["nombre"].isin(carreteras_ind1)][["nombre", "geometry"]].rename(columns={"nombre": "CARRETERA"})
+    roads_geo = None  # geometry not available on cloud deployment
     return ind1, ind2, ind3s, ind3r, ind4s, ind4c, ind5r, ind5R, ind6d, ind6p, roads_geo
 
 ind1, ind2, ind3s, ind3r, ind4s, ind4c, ind5r, ind5R, ind6d, ind6p, roads_geo = load_data()
