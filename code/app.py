@@ -173,7 +173,7 @@ def add_covid_vrect(fig):
     )
     return fig
 
-ddef get_section_coords(road, section_id, roads_geo=None):
+def get_section_coords(road, section_id, roads_geo=None):
     """
     Returns (lat, lon) for a section using ROAD_COORDS lookup + km-based jitter.
     roads_geo is kept as parameter for backwards compatibility but is not used.
