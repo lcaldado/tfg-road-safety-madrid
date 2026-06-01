@@ -609,15 +609,9 @@ with tab3:
         path_df = geo_to_path_layer(
             highlight_road=None if is_regional else selected_road,
         )
-        road_layer = pdk.Layer(
-            "PathLayer",
-            data=path_df,
-            get_path="path",
-            get_color="color",
-            get_width="width",
-            width_min_pixels=1,
-            pickable=False,
-        )
+        # Road geometry layer removed (no GeoPackage available on cloud deployment)
+        # Only the black spot scatter layer is shown on the map
+        road_layer = None
 
         bs_view = pdk.ViewState(latitude=40.42, longitude=-3.75, zoom=9, pitch=0)
         bs_tooltip = {
@@ -625,7 +619,7 @@ with tab3:
         }
 
         st.pydeck_chart(pdk.Deck(
-            layers=[road_layer, bs_layer],
+            layers=[bs_layer],
             initial_view_state=bs_view,
             tooltip=bs_tooltip,
             map_style="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
