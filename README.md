@@ -9,8 +9,8 @@ Community of Madrid road network (2016–2024).
 - `code/app.py` — Phase 5: Streamlit interactive viewer
 
 ## How to run the viewer
-pip install -r requirements.txt
-streamlit run code/app.py
+1. pip install -r requirements.txt
+2. streamlit run code/app.py
 
 ## Data sources
 - Accident records: Portal de Datos Abiertos de la Comunidad de Madrid
