@@ -30,7 +30,7 @@ import numpy as np
 import os
 import geopandas as gpd
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "..", "indicators")
+DATA_DIR = os.path.join(BASE_DIR, "..", "data")
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Road Safety Viewer — Madrid",
@@ -103,7 +103,7 @@ def load_data():
     ind1["IS_TCA"] = ind1["IS_TCA"].astype(int)
 
     # Load road network and filter only roads present in ind1
-    roads_geo = gpd.read_file(os.path.join(BASE_DIR, "..", "processed_data", "red_viaria.gpkg"), layer="rt_tramo_vial")
+    roads_geo = gpd.read_file(os.path.join(DATA_DIR, "red_viaria.gpkg"), layer="rt_tramo_vial")
     roads_geo = roads_geo.to_crs(epsg=4326)
     carreteras_ind1 = set(ind1["CARRETERA"].unique())
     roads_geo = roads_geo[roads_geo["nombre"].isin(carreteras_ind1)][["nombre", "geometry"]].rename(columns={"nombre": "CARRETERA"})
